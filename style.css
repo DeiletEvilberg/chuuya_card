@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(38, 46, 45);
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 400px;
+    border-radius: 10px;
+    background: linear-gradient(142deg, rgb(6, 6, 10) 0%, rgb(61, 78, 236) 100%);
+    padding: 25px;
+    box-shadow: 0 0 25px rgba(27,30,52,0.3);
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    display: block;
+    margin: 0 auto;
+    transform: translateZ(10px); 
+}
+
+.card .photo img {
+    border-radius: 50%;
+}
+
+.card .name {
+    color: #fff;
+    margin: 25px 0;
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+}
+
+.card .description {
+    color: #fff;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.card .button {
+    margin-top: 25px;
+    text-align: center;
+    background: linear-gradient(30deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    transform: translateZ(30px); 
+}
